@@ -1,0 +1,145 @@
+.device_user_section {
+
+
+  .device_user_section_slice {
+    padding: 2rem 0rem;
+
+    @media (max-width: 450px) {
+      padding: 4rem 1rem;
+    }
+  }
+
+  .css-46bh2p-MuiCardContent-root:last-child {
+    background: #0b1133 !important;
+  }
+  .css-h93ljk-MuiTypography-root {
+    color: white !important;
+  }
+
+  .componenets_slice {
+    display: flex;
+    justify-content: flex-start;
+    grid-gap: 20px;
+    flex-wrap: wrap;
+
+    @media (max-width:450px) {
+      justify-content: center;
+    }
+  }
+
+  .components_name {
+    font-size: 20px;
+    color: white;
+    margin: 0 0 10px 0px;
+
+    @media (max-width:450px) {
+      text-align: center;
+    }
+  }
+
+  .single_components {
+    width: 160px;
+    height: 50px;
+    background: yellow;
+    color: black;
+    border: 1px solid black;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span {
+      font-size: 13px;
+    }
+  }
+
+  .reset_counts {
+    color: white;
+    background: #d11515;
+    padding: 10px;
+    float: right;
+    border-radius: 20px;
+  }
+
+  .bonus_slice {
+    padding: 0 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    grid-gap: 10px;
+  }
+
+  .bonus_title {
+    font-size: 18px;
+    font-weight: 600;
+    color: green;
+  }
+
+  .not_register_car_wash {
+    color: red;
+  }
+}
+
+.buttons_route {
+  display: flex;
+  grid-gap: 10px;
+  justify-content: center;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .counters_all {
+    background: green;
+    color: white;
+    padding: 7px 40px;
+    border-radius: 15px;
+    &:hover {
+      background: #045804;
+    }
+  }
+
+  .settings_all {
+    background: green;
+    color: white;
+    padding: 7px 40px;
+    border-radius: 15px;
+    &:hover {
+      background: #045804;
+    }
+  }
+
+  .active_button {
+    background: maroon;
+    color: white;
+    padding: 7px 40px;
+    border-radius: 15px;
+  }
+
+  .advanced_settings {
+    background: green;
+    color: white;
+    padding: 7px 40px;
+    border-radius: 15px;
+    &:hover {
+      background: #045804;
+    }
+  }
+}
+
+
+.settings_not {
+  color: red;
+  font-size: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+    padding: 30px !important;
+  }
+}
